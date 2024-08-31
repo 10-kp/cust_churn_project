@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
+
+
 ## Overview
 
 This project aims to predict customer churn for a telecom company using various machine learning models. Customer churn occurs when customers stop doing business with a company, and predicting churn helps companies take proactive measures to retain customers.
