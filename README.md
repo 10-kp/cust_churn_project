@@ -7,22 +7,22 @@ This project aims to predict customer churn for a telecom company using various 
 
 The dataset contains customer information such as demographic details, services subscribed, billing information, and whether the customer churned or not. Key columns include:
 
-- customerID: Unique identifier for each customer.
-- gender: Gender of the customer.
-- SeniorCitizen: Whether the customer is a senior citizen (1 for Yes, 0 for No).
-- Partner: Whether the customer has a partner.
-- Dependents: Whether the customer has dependents.
-- tenure: Number of months the customer has stayed with the company.
-- PhoneService: Whether the customer has a phone service.
-- InternetService: Type of internet service (DSL, Fiber optic, No).
-- Churn: Target variable indicating if the customer churned (Yes/No).
+  - customerID: Unique identifier for each customer.
+  - gender: Gender of the customer.
+  - SeniorCitizen: Whether the customer is a senior citizen (1 for Yes, 0 for No).
+  - Partner: Whether the customer has a partner.
+  - Dependents: Whether the customer has dependents.
+  - tenure: Number of months the customer has stayed with the company.
+  - PhoneService: Whether the customer has a phone service.
+  - InternetService: Type of internet service (DSL, Fiber optic, No).
+  - Churn: Target variable indicating if the customer churned (Yes/No).
   
 
 ## Project Structure
   
-- data/: Directory containing the dataset (customer_churn.csv).
-- notebooks/: Jupyter notebooks with data exploration, preprocessing, and model training.
-- models/: Directory to save trained models.
+  - data/: Directory containing the dataset (customer_churn.csv).
+  - notebooks/: Jupyter notebooks with data exploration, preprocessing, and model training.
+  - models/: Directory to save trained models.
 
 ## Installation
 
@@ -43,27 +43,27 @@ To get started with this project, follow these steps:
 
 
 ## Usage
+
+1. Data Preprocessing:
   
-  1. Data Preprocessing:
+    - Handle missing values.
+    - Convert categorical variables into numeric form using Label Encoding.
+    - Check for multicollinearity using Variance Inflation Factor (VIF) and remove highly correlated features.
   
-  - Handle missing values.
-  - Convert categorical variables into numeric form using Label Encoding.
-  - Check for multicollinearity using Variance Inflation Factor (VIF) and remove highly correlated features.
+ 2. Model Building:
   
-  2.Model Building:
+    - Split the dataset into training and testing sets.
+    - Train and evaluate Logistic Regression, Decision Tree, and Random Forest models.
+    - Measure model performance using accuracy scores.
   
-  - Split the dataset into training and testing sets.
-  - Train and evaluate Logistic Regression, Decision Tree, and Random Forest models.
-  - Measure model performance using accuracy scores.
+ 3. Feature Engineering:
   
-  3. Feature Engineering:
+    - Experiment with feature selection and engineering to improve model performance.
   
-  - Experiment with feature selection and engineering to improve model performance.
+ 4. Evaluation:
   
-  4. Evaluation:
-  
-  - Evaluate the models using accuracy, confusion matrix, and other relevant metrics.
-  - Compare the performance of different models.
+    - Evaluate the models using accuracy, confusion matrix, and other relevant metrics.
+    - Compare the performance of different models.
 
 
 ## Results
