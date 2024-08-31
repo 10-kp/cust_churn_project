@@ -94,6 +94,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Acknowledgements
 
-[Pandas Documentation] (https://pandas.pydata.org/docs/index.html)
-[Scikit-learn Documentation] (https://scikit-learn.org/stable/)
-[Seaborn Documentation] (https://seaborn.pydata.org/)
+- [Pandas Documentation] (https://pandas.pydata.org/docs/index.html)
+- [Scikit-learn Documentation] (https://scikit-learn.org/stable/)
+- [Seaborn Documentation] (https://seaborn.pydata.org/)
